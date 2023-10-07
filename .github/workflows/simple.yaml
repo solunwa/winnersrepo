@@ -19,9 +19,9 @@ jobs:
             run: |
               import platform
            #print(platform.processor())
-   run-windows-commands:
-     runs-on: windows-latest
-     steps:
+  run-windows-commands:
+    runs-on: windows-latest
+    steps:
         - name: Directory
           run: Get-Location
         - name: Directory bash
